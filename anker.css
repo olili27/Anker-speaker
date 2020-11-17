@@ -1,0 +1,20 @@
+.rubber{
+    background: url('./speaker.jpg'),#222;
+    background-size: 180px;
+    background-blend-mode: multiply;
+    box-shadow: inset 5px 5px 15px #111, inset -5px -5px 15px #777, 0px 5px 5px #000;
+    width: 60vw;
+    height: 30vh;
+    text-align: center;
+    margin: 30vh auto;
+    border-radius: 3em;
+    align-content: center;
+    display: block;
+}
+tt{
+    position: absolute;
+    font-size: 15vh;
+    color: #f1f1f112;
+    text-transform: uppercase;
+    margin: 7.5vh -10vw;
+}
