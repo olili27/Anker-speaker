@@ -12,7 +12,8 @@
     display: block;
 }
 tt{
-    position: absolute;
+    position: relative;
+    top: 2rem;
     font-size: 15vh;
     color: #f1f1f112;
     text-transform: uppercase;
