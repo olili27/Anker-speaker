@@ -13,9 +13,16 @@
 }
 tt{
     position: relative;
-    top: 2rem;
+    top: 2.4rem;
     font-size: 15vh;
+    /* background: yellow; */
     color: #f1f1f112;
     text-transform: uppercase;
     margin: 7.5vh -10vw;
+}
+
+@media(max-width:700px){
+    tt{
+        font-size: 13vh; 
+    }
 }
