@@ -15,7 +15,6 @@ tt{
     position: relative;
     top: 2.4rem;
     font-size: 15vh;
-    /* background: yellow; */
     color: #f1f1f112;
     text-transform: uppercase;
     margin: 7.5vh -10vw;
@@ -24,5 +23,11 @@ tt{
 @media(max-width:700px){
     tt{
         font-size: 13vh; 
+    }
+}
+
+@media(max-width:400px){
+    tt{
+        font-size: 11vh; 
     }
 }
